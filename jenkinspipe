@@ -9,7 +9,7 @@ pipeline {
      }
      stage('BYE') {
          steps {
-             powershell label: '', script: 'get-service'
+             powershell label: '', script: 'get-command'
              
          }
          
