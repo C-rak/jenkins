@@ -1,1 +1,1 @@
-get-help
+get-command *windows*
