@@ -1,0 +1,20 @@
+pipeline {
+   agent any
+
+   stages {
+      stage('Hello') {
+         steps {
+            echo 'Hello World'
+         }
+     }
+     stage('BYE') {
+         steps {
+             powershell label: '', script: 'get-service'
+             
+         }
+         
+         
+     }
+   }
+   
+}
