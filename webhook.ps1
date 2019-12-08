@@ -1,2 +1,1 @@
-get-service
 Get-command
