@@ -1,3 +1,3 @@
-Get-command
+get-service
 
 
